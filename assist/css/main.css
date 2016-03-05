@@ -1,6 +1,6 @@
 body{
   margin:100px  400px;
-  background-color: orange;
+  background-color:rgb(156, 39, 176);
 }
 
 .butt{
@@ -11,6 +11,7 @@ body{
   text-transform: uppercase;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
+  font-weight: bold;
 }
 .butt:active{
   width:70px;

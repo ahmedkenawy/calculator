@@ -4,32 +4,42 @@
  });
  //add add val to screen
  $("#num1").on("click", function(event){
-    $(".screen").val("1");
+   var value=$(".screen").val();
+    $(".screen").val(value + "1");
 });
 $("#num2").on("click", function(event){
-   $(".screen").val("2");
+  var value=$(".screen").val();
+   $(".screen").val(value+"2");
 });
 $("#num3").on("click", function(event){
-   $(".screen").val("3");
+  var value=$(".screen").val();
+   $(".screen").val(value+"3");
 });
 $("#num4").on("click", function(event){
-   $(".screen").val("4");
+  var value=$(".screen").val();
+   $(".screen").val(value+"4");
 });
 $("#num5").on("click", function(event){
-   $(".screen").val("5");
+  var value=$(".screen").val();
+   $(".screen").val(value+"5");
 });
 $("#num6").on("click", function(event){
-   $(".screen").val("6");
+  var value=$(".screen").val();
+   $(".screen").val(value+"6");
 });
 $("#num7").on("click", function(event){
-   $(".screen").val("7");
+  var value=$(".screen").val();
+   $(".screen").val(value+"7");
 });
 $("#num8").on("click", function(event){
-   $(".screen").val("8");
+  var value=$(".screen").val();
+   $(".screen").val(value+"8");
 });
 $("#num9").on("click", function(event){
-   $(".screen").input().val("9");
+  var value=$(".screen").val();
+   $(".screen").val(value+"9");
 });
 $("#num0").on("click", function(event){
-   $(".screen").val("0");
+  var value=$(".screen").val();
+   $(".screen").val(value+"0");
 });

@@ -1,8 +1,9 @@
-//remove input function jquery
+//clear function
   $("#op1").on("click", function(event){
      $(".screen").val("");
  });
- //add add val to screen
+
+ //btn value an append to screen
  $("#num1").on("click", function(event){
    var value=$(".screen").val();
     $(".screen").val(value + "1");
@@ -42,4 +43,8 @@ $("#num9").on("click", function(event){
 $("#num0").on("click", function(event){
   var value=$(".screen").val();
    $(".screen").val(value+"0");
+});
+$("#point").on("click", function(event){
+  var value=$(".screen").val();
+   $(".screen").val(value+".");
 });

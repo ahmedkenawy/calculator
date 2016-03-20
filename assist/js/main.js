@@ -48,3 +48,59 @@ $("#point").on("click", function(event){
   var value=$(".screen").val();
    $(".screen").val(value+".");
 });
+$(".add").on("click", function(event){
+  var value=$(".screen").val();
+   $(".screen").val(value+"+");
+});
+$(".mult").on("click", function(event){
+  var value=$(".screen").val();
+   $(".screen").val(value+"×");
+});
+$(".divide").on("click", function(event){
+  var value=$(".screen").val();
+   $(".screen").val(value+"÷");
+});
+$(".sub").on("click", function(event){
+  var value=$(".screen").val();
+   $(".screen").val(value+"-");
+});
+//add function
+$(".equal").on("click", function(event){
+  var addN = parseInt( $(".screen").val() );
+   var operation ="+"
+   var last_number  =  parseInt( $(".screen").val()) ;
+if(operation === "+"){
+    var result = addN + last_number
+   $(".screen").val(result);
+};
+});
+//mult
+// $(".equal").on("click", function(event){
+//   var addN = parseInt( $(".screen").val() );
+//    var operation ="×"
+//    var last_number  =  parseInt( $(".screen").val()) ;
+// if(operation === "×"){
+//     var result = addN * last_number
+//    $(".screen").val(result);
+// };
+// });
+// //divide
+// $(".equal").on("click", function(event){
+//   var addN = parseInt( $(".screen").val() );
+//    var operation ="÷"
+//    var last_number  =  parseInt( $(".screen").val()) ;
+// if(operation === "÷"){
+//     var result = addN / last_number
+//    $(".screen").val(result);
+// };
+// });
+//sub
+// $(".equal").on("click", function(event){
+//   var addN = parseInt( $(".screen").val() );
+//    var operation ="-"
+//    var last_number  =  parseInt( $(".screen").val()) ;
+// if(operation === "-"){
+//     var result = addN - last_number
+//    $(".screen").val(result);
+// };
+// });
